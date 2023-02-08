@@ -534,7 +534,7 @@ body {
     
     transform: translateY(100%);
 
-    /* transition-property: translateY; */
+    transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -618,6 +618,10 @@ body {
     border-radius: 50%;
     background: var(--accent-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close-button:hover,
 .modal-close-button:focus {
